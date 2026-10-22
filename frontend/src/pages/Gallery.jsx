@@ -49,7 +49,7 @@ const Gallery = () => {
       <section className="py-14 bg-slate-900 text-white relative overflow-hidden border-b border-slate-800">
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl sm:text-4xl font-extrabold mb-3">
-            Galeri Kopdes Merah Putih
+            Galeri Kopkel Merah Putih
           </h1>
           <p className="text-slate-300 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
             Dokumentasi foto dan video kegiatan musyawarah, panen raya, pelatihan UMKM, serta pelayanan lapangan.

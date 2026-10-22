@@ -18,7 +18,7 @@ const Service = () => {
             Unit Layanan & Usaha Koperasi
           </h1>
           <p className="text-slate-300 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
-            Daftar unit layanan usaha resmi Kopdes Merah Putih untuk melayani dan memberdayakan masyarakat desa.
+            Daftar unit layanan usaha resmi Kopkel Merah Putih untuk melayani dan memberdayakan masyarakat kalurahan.
           </p>
         </div>
       </section>
@@ -31,7 +31,7 @@ const Service = () => {
             subtitle="Fasilitas & Program Usaha"
             title="Daftar Unit Layanan Usaha"
             highlight="Tersedia"
-            description="Kopdes Merah Putih mengelola unit layanan terpilih sesuai kebutuhan sosial-ekonomi warga desa setempat."
+            description="Kopkel Merah Putih mengelola unit layanan terpilih sesuai kebutuhan sosial-ekonomi warga kalurahan setempat."
             badge="Profil Unit Usaha"
           />
 
@@ -56,7 +56,7 @@ const Service = () => {
               </div>
               <div>
                 <h4 className="text-base font-bold text-slate-900">Butuh Informasi Pengajuan Layanan?</h4>
-                <p className="text-xs text-slate-600">Pengurus Kopdes Merah Putih siap melayani konsultasi pendaftaran dan keanggotaan.</p>
+                <p className="text-xs text-slate-600">Pengurus Kopkel Merah Putih siap melayani konsultasi pendaftaran dan keanggotaan.</p>
               </div>
             </div>
 

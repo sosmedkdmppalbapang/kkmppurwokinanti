@@ -13,7 +13,7 @@ const VisiMisi = () => {
         
         <SectionTitle
           subtitle="Tujuan & Arah Gerak"
-          title="Visi & Misi Kopdes"
+          title="Visi & Misi Kopkel"
           highlight="Merah Putih"
           badge="Prinsip Landasan"
         />

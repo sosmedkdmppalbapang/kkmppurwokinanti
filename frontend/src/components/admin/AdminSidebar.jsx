@@ -32,7 +32,7 @@ const AdminSidebar = ({ mobileOpen, setMobileOpen }) => {
           <div className="p-4 sm:p-5 border-b border-slate-200 flex items-center gap-3">
             <img
               src={kopdesData.logo}
-              alt="Logo Kopdes"
+              alt="Logo Kopkel"
               className="h-10 w-auto object-contain"
             />
             <div className="flex flex-col border-l border-slate-200 pl-3">
@@ -81,7 +81,7 @@ const AdminSidebar = ({ mobileOpen, setMobileOpen }) => {
             </span>
           </Link>
           <div className="px-2 pt-1 text-[11px] text-slate-500 flex items-center justify-between font-medium">
-            <span>Kopdes Merah Putih</span>
+            <span>Kopkel Merah Putih</span>
             <span className="text-[10px] text-slate-400">v1.0</span>
           </div>
         </div>

@@ -52,7 +52,7 @@ const AdminLogin = () => {
         <div className="bg-white p-8 text-center border-b border-slate-200">
           <img
             src={kopdesData.logo}
-            alt="Logo Kopdes"
+            alt="Logo Kopkel"
             className="h-16 w-auto object-contain mx-auto mb-3"
           />
           <h2 className="text-xl font-extrabold text-slate-900 tracking-tight">{kopdesData.shortName}</h2>
@@ -138,7 +138,7 @@ const AdminLogin = () => {
           </Link>
 
           <span className="flex items-center gap-1 text-[11px]">
-            <span>Kopdes Merah Putih</span>
+            <span>Kopkel Merah Putih</span>
           </span>
         </div>
 

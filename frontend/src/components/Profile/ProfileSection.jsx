@@ -14,9 +14,9 @@ const ProfileSection = () => {
         
         <SectionTitle
           subtitle="Profil Lembaga"
-          title="Tentang Koperasi Desa"
+          title="Tentang Koperasi Kalurahan"
           highlight="Merah Putih"
-          description="Lembaga ekonomi berbasis kekeluargaan yang didirikan untuk mengangkat harkat ekonomi warga desa."
+          description="Lembaga ekonomi berbasis kekeluargaan yang didirikan untuk mengangkat harkat ekonomi warga kalurahan."
           badge="Profil Resmi"
         />
 
@@ -40,7 +40,7 @@ const ProfileSection = () => {
             </p>
 
             <p className="text-slate-600 text-sm leading-relaxed">
-              Kehadiran Kopdes Merah Putih menjadi wujud komitmen bersama antara pemerintah dan masyarakat desa dalam menciptakan ekosistem usaha pedesaan yang sehat, mandiri, dan transparan.
+              Kehadiran Kopkel Merah Putih menjadi wujud komitmen bersama antara pemerintah dan masyarakat kalurahan dalam menciptakan ekosistem usaha kalurahan yang sehat, mandiri, dan transparan.
             </p>
 
             {/* Quick Status Cards */}
@@ -104,7 +104,7 @@ const ProfileSection = () => {
             <div className="lg:col-span-5 space-y-4">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-white border border-slate-200 text-xs font-bold text-slate-800">
                 <Building2 className="w-3.5 h-3.5 text-primary" />
-                <span>Lokasi Sekretariat Kopdes</span>
+                <span>Lokasi Sekretariat Kopkel</span>
               </div>
 
               <h3 className="text-xl font-bold text-slate-900">Alamat Kantor Resmi</h3>
@@ -131,7 +131,7 @@ const ProfileSection = () => {
             <div className="lg:col-span-7">
               <div className="w-full h-64 sm:h-72 rounded-lg overflow-hidden border border-slate-300 shadow-sm bg-slate-200">
                 <iframe
-                  title="Google Maps Lokasi Kopdes"
+                  title="Google Maps Lokasi Kopkel"
                   src={kopdesData.kontak.googleMapsEmbedUrl}
                   width="100%"
                   height="100%"

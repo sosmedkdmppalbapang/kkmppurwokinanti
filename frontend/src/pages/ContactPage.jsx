@@ -64,7 +64,7 @@ const ContactPage = () => {
             transition={{ delay: 0.1 }}
             className="text-3xl sm:text-5xl font-extrabold font-poppins mb-4"
           >
-            Hubungi Pengurus Kopdes
+            Hubungi Pengurus Kopkel
           </motion.h1>
           <p className="text-slate-300 max-w-2xl mx-auto text-base sm:text-lg">
             Kami siap melayani kebutuhan informasi keanggotaan, pendaftaran unit layanan usaha, dan kerjasama kemitraan desa.
@@ -79,7 +79,7 @@ const ContactPage = () => {
           <SectionTitle
             subtitle="Pusat Informasi"
             title="Lokasi Kantor & Formulir Pesan"
-            highlight="Kopdes"
+            highlight="Kopkel"
             badge="Pelayanan Warga"
           />
 
@@ -132,13 +132,13 @@ const ContactPage = () => {
                 Kirim Pesan Ke Pengurus
               </h3>
               <p className="text-slate-500 text-xs sm:text-sm mb-6">
-                Sampaikan pertanyaan atau permohonan informasi mengenai program Koperasi Desa Merah Putih.
+                Sampaikan pertanyaan atau permohonan informasi mengenai program Koperasi Kalurahan Merah Putih.
               </p>
 
               {isSubmitted && (
                 <div className="mb-6 p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs sm:text-sm flex items-center gap-3">
                   <CheckCircle2 className="w-5 h-5 text-emerald-600 flex-shrink-0" />
-                  <span>Pesan Anda berhasil terkirim ke sekretariat Kopdes Merah Putih. Pengurus kami akan menghubungi Anda.</span>
+                  <span>Pesan Anda berhasil terkirim ke sekretariat Kopkel Merah Putih. Pengurus kami akan menghubungi Anda.</span>
                 </div>
               )}
 

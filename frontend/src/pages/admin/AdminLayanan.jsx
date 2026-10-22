@@ -84,7 +84,7 @@ const AdminLayanan = () => {
         <div>
           <h1 className="text-xl font-extrabold text-slate-900">Pengelolaan Unit Layanan Usaha</h1>
           <p className="text-xs text-slate-600 mt-1">
-            Tambah, edit, dan hapus unit layanan usaha Kopdes (Dinamis). Total aktif: {kopdesData.layanan.length} Unit.
+            Tambah, edit, dan hapus unit layanan usaha Kopkel (Dinamis). Total aktif: {kopdesData.layanan.length} Unit.
           </p>
         </div>
 

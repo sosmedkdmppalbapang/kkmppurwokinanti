@@ -26,7 +26,7 @@ const AdminHeader = ({ setMobileOpen }) => {
 
         <div className="flex flex-col">
           <div className="flex items-center gap-2">
-            <span className="text-xs font-extrabold text-slate-900">KOPDES {kopdesData.namaKoperasi || 'Desa Anda'}</span>
+            <span className="text-xs font-extrabold text-slate-900">KOPKEL {kopdesData.namaKoperasi || 'Kalurahan Anda'}</span>
             <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">
               Online
             </span>
@@ -49,7 +49,7 @@ const AdminHeader = ({ setMobileOpen }) => {
         <div className="flex items-center gap-2.5 pl-3 border-l border-slate-200">
           <div className="hidden sm:flex flex-col text-left">
             <span className="text-xs font-bold text-slate-900 leading-tight">
-              {user?.name || 'Administrator Kopdes'}
+              {user?.name || 'Administrator Kopkel'}
             </span>
             <span className="text-[10px] text-primary font-semibold">Pengelola Cabang</span>
           </div>

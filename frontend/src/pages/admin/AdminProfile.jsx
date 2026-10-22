@@ -248,7 +248,7 @@ const AdminProfile = () => {
           <div className="grid grid-cols-1 gap-4 text-xs pt-2">
           <div className="p-4 bg-slate-50 rounded-lg border border-slate-200 space-y-1.5">
             <span className="font-bold text-slate-700 flex items-center gap-1.5 mb-2">
-               Nama Daerah KOPDES
+               Nama Daerah KOPKEL
             </span>
             <input
               type="text"
@@ -257,7 +257,7 @@ const AdminProfile = () => {
               className="w-full px-3 py-2 rounded-lg border border-slate-300 font-semibold text-slate-900 focus:outline-none focus:border-primary text-xs"
               placeholder="Contoh: Desa Kertamukti"
             />
-            <p className="text-[11px] text-slate-500">Akan ditampilkan sebagai bagian dari KOPDES Merah Putih - [Nama Daerah]</p>
+            <p className="text-[11px] text-slate-500">Akan ditampilkan sebagai bagian dari KOPKEL Merah Putih - [Nama Daerah]</p>
           </div>
         </div>
 

@@ -23,13 +23,13 @@ const Hero = () => {
 
             {/* Main Headline */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.2] mb-5">
-              Profil Koperasi Desa <br className="hidden sm:block" />
-              <span className="text-primary">{kopdesData.namaKoperasi || 'Desa Anda'}</span>
+              Profil Koperasi Kalurahan <br className="hidden sm:block" />
+              <span className="text-primary">{kopdesData.namaKoperasi || 'Kalurahan Anda'}</span>
             </h1>
 
             {/* Subtitle */}
             <p className="text-base text-slate-600 font-normal leading-relaxed max-w-2xl mb-8">
-              Selamat datang di portal resmi <strong className="text-slate-900 font-semibold">Kopdes Merah Putih - {kopdesData.namaKoperasi || 'Desa Anda'}</strong>. Lembaga ekonomi terpadu untuk pelayanan usaha warga, pemberdayaan anggota, dan ketahanan pangan pedesaan.
+              Selamat datang di portal resmi <strong className="text-slate-900 font-semibold">Kopkel Merah Putih - {kopdesData.namaKoperasi || 'Kalurahan Anda'}</strong>. Lembaga ekonomi terpadu untuk pelayanan usaha warga, pemberdayaan anggota, dan ketahanan pangan kalurahan.
             </p>
 
             {/* Action CTAs */}
@@ -70,7 +70,7 @@ const Hero = () => {
               <div className="relative aspect-[4/3] rounded-lg overflow-hidden bg-slate-100">
                 <img
                   src={kopdesData.heroImage}
-                  alt="Aktivitas Kopdes Merah Putih"
+                  alt="Aktivitas Kopkel Merah Putih"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -78,8 +78,8 @@ const Hero = () => {
                 <div className="flex items-center gap-2.5 text-left">
                   <img src={kopdesData.logo} alt="Logo" className="h-8 w-auto object-contain" />
                   <div>
-                    <h4 className="text-xs font-bold text-slate-900">KOPDES</h4>
-                    <p className="text-[11px] text-slate-500">{kopdesData.namaKoperasi || 'Desa Anda'}</p>
+                    <h4 className="text-xs font-bold text-slate-900">KOPKEL</h4>
+                    <p className="text-[11px] text-slate-500">{kopdesData.namaKoperasi || 'Kalurahan Anda'}</p>
                   </div>
                 </div>
                 <span className="text-[11px] font-semibold px-2.5 py-1 rounded bg-slate-100 text-slate-700">

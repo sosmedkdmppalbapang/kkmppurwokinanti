@@ -30,7 +30,7 @@ const About = () => {
             Sejarah, Visi & Komitmen Kami
           </motion.h1>
           <p className="text-slate-300 max-w-2xl mx-auto text-base sm:text-lg">
-            Mengenal lebih dekat Koperasi Tani Pangan Mandiri dalam memajukan kedaulatan pangan dan perekonomian pedesaan.
+            Mengenal lebih dekat Koperasi Tani Pangan Mandiri dalam memajukan kedaulatan pangan dan perekonomian kalurahan.
           </p>
         </div>
       </section>

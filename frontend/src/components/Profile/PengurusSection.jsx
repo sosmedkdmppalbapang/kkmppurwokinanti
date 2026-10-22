@@ -40,7 +40,7 @@ const PengurusSection = () => {
         <SectionTitle
           subtitle="Struktur Organisasi"
           title="Struktur Pengurus & Pengawas"
-          highlight="Kopdes"
+          highlight="Kopkel"
           description="Para pengemban amanah yang bertanggung jawab mengelola operasional dan mengawasi jalannya usaha koperasi."
           badge="Manajemen Resmi"
         />
@@ -90,7 +90,7 @@ const PengurusSection = () => {
 
                 <div className="px-5 pb-4 pt-0 border-t border-slate-100 mt-auto">
                   <span className="text-[11px] font-semibold text-slate-400">
-                    Pengurus Resmi Kopdes Merah Putih
+                    Pengurus Resmi Kopkel Merah Putih
                   </span>
                 </div>
               </motion.div>

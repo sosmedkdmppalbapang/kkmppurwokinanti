@@ -30,7 +30,7 @@ const LegalitasCard = () => {
           subtitle="Kepastian Hukum"
           title="Legalitas & Badan Hukum"
           highlight="Resmi"
-          description="Kopdes Merah Putih beroperasi secara sah dan memenuhi seluruh regulasi perundang-undangan Republik Indonesia."
+          description="Kopkel Merah Putih beroperasi secara sah dan memenuhi seluruh regulasi perundang-undangan Republik Indonesia."
           badge="Resmi & Legal"
         />
 

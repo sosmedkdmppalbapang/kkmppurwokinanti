@@ -22,10 +22,10 @@ const Footer = () => {
               />
               <div className="flex flex-col">
                 <span className="font-bold text-base leading-none text-white uppercase">
-                  KOPDES {kopdesData.namaKoperasi || 'Desa Anda'}
+                  KOPKEL {kopdesData.namaKoperasi || 'Kalurahan Anda'}
                 </span>
                 <span className="text-[10px] font-semibold text-red-400 uppercase tracking-wider mt-1">
-                  Koperasi Desa Merah Putih
+                  Koperasi Kalurahan Merah Putih
                 </span>
               </div>
             </Link>
@@ -48,7 +48,7 @@ const Footer = () => {
             <ul className="space-y-2 text-xs sm:text-sm font-medium">
               <li>
                 <Link to="/" className="text-slate-400 hover:text-white transition-colors">
-                  Profil Kopdes
+                  Profil Kopkel
                 </Link>
               </li>
               <li>
@@ -63,7 +63,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/admin/login" className="text-slate-400 hover:text-white transition-colors">
-                  Portal Admin Kopdes
+                  Portal Admin Kopkel
                 </Link>
               </li>
             </ul>
@@ -135,10 +135,10 @@ const Footer = () => {
 
         {/* Bottom Copyright */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 font-medium gap-3">
-          <p>© {new Date().getFullYear()} KOPDES {kopdesData.namaKoperasi || 'Desa Anda'}. Hak Cipta Dilindungi Undang-Undang.</p>
+          <p>© {new Date().getFullYear()} KOPKEL {kopdesData.namaKoperasi || 'Kalurahan Anda'}. Hak Cipta Dilindungi Undang-Undang.</p>
           <div className="flex items-center gap-2">
             <Flag className="w-3.5 h-3.5 text-red-500" />
-            <span>Koperasi Desa Merah Putih Indonesia</span>
+            <span>Koperasi Kalurahan Merah Putih Indonesia</span>
           </div>
         </div>
 
