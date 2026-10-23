@@ -35,7 +35,7 @@ const VisiMisi = () => {
 
               <span className="text-xs font-bold uppercase tracking-wider text-primary">Visi Utama</span>
               <h3 className="text-lg font-bold text-slate-900 mt-1 mb-3">
-                Kemandirian Ekonomi Desa 2030
+                Kemandirian Ekonomi Kelurahan 2030
               </h3>
 
               <p className="text-slate-600 text-sm leading-relaxed italic">

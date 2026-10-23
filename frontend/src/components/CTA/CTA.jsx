@@ -27,7 +27,7 @@ const CTA = () => {
             </span>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-poppins text-white leading-tight mb-4">
-              Siap Memajukan Ekonomi Desa & Pertanian Anda?
+              Siap Memajukan Ekonomi Kelurahan & Pertanian Anda?
             </h2>
 
             <p className="text-emerald-100 text-base sm:text-lg leading-relaxed font-normal">

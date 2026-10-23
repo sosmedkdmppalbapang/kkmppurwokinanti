@@ -1,7 +1,7 @@
 export const APP_CONFIG = {
   NAME: 'Koperasi Tani Pangan Mandiri',
   SHORT_NAME: 'KTPM',
-  SLOGAN: 'Wujud Nyata Gotong Royong Ekonomi Desa & Pertanian Modern',
+  SLOGAN: 'Wujud Nyata Gotong Royong Ekonomi Kelurahan & Pertanian Modern',
   CONTACT: {
     PHONE: '+62 821-4567-8900',
     WHATSAPP: '+62 812-3456-7890',

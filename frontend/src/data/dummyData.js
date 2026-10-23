@@ -2,15 +2,15 @@ import logoImg from '../assets/logo/logo.png';
 
 export const kopdesData = {
   // Brand & Identity
-  name: "Koperasi Kalurahan Merah Putih",
+  name: "Koperasi Kelurahan Merah Putih",
   shortName: "Kopkel Merah Putih",
   branchName: "Kopkel Merah Putih - Desa Kertamukti",
-  tagline: "Membangun Kemandirian Ekonomi Desa Berbasis Gotong Royong",
+  tagline: "Membangun Kemandirian Ekonomi Kelurahan Berbasis Gotong Royong",
   logo: logoImg,
   heroImage: "https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&w=800&q=80",
 
   // General Description
-  description: "Koperasi Kalurahan Merah Putih (Kopkel Merah Putih) adalah lembaga ekonomi desa berbasis gotong royong yang berkomitmen memperkuat kedaulatan pangan, mendampingi UMKM lokal, serta menyediakan layanan usaha terpadu bagi warga kalurahan secara profesional, adil, dan terpercaya.",
+  description: "Koperasi Kelurahan Merah Putih (Kopkel Merah Putih) adalah lembaga ekonomi kelurahan berbasis gotong royong yang berkomitmen memperkuat kedaulatan pangan, mendampingi UMKM lokal, serta menyediakan layanan usaha terpadu bagi warga kelurahan secara profesional, adil, dan terpercaya.",
 
   // Legal Status / Badan Hukum (2 Items)
   legal: {
@@ -20,7 +20,7 @@ export const kopdesData = {
   },
 
   // Vision & Mission
-  visi: "Menjadi wadah ekonomi desa yang mandiri, berdaya saing tinggi, dan berlandaskan asas kekeluargaan demi terwujudnya kesejahteraan seluruh warga kalurahan pada tahun 2030.",
+  visi: "Menjadi wadah ekonomi kelurahan yang mandiri, berdaya saing tinggi, dan berlandaskan asas kekeluargaan demi terwujudnya kesejahteraan seluruh warga kelurahan pada tahun 2030.",
   misi: [
     "Menyediakan sarana produksi pertanian dan kebutuhan bahan pokok berkualitas dengan harga adil.",
     "Mengembangkan unit simpan pinjam berbasis tata kelola sehat dan transparan.",
@@ -34,7 +34,7 @@ export const kopdesData = {
       nama: "H. Suryana, S.P.",
       jabatan: "Ketua Pengurus",
       foto: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
-      pesan: "Kopkel Merah Putih hadir sebagai benteng ekonomi desa untuk memastikan hasil jerih payah warga kembali untuk kesejahteraan bersama."
+      pesan: "Kopkel Merah Putih hadir sebagai benteng ekonomi kelurahan untuk memastikan hasil jerih payah warga kembali untuk kesejahteraan bersama."
     },
     sekretaris: {
       nama: "Ahmad Budiman, S.T.",
@@ -76,7 +76,7 @@ export const kopdesData = {
       id: "offtaker-panen",
       title: "Offtaker & Pemasaran Panen",
       icon: "Wheat",
-      description: "Penyerapan langsung hasil pertanian dan perkebunan warga kalurahan untuk disalurkan ke jaringan pasar induk dan industri.",
+      description: "Penyerapan langsung hasil pertanian dan perkebunan warga kelurahan untuk disalurkan ke jaringan pasar induk dan industri.",
       features: ["Harga Acuan Adil", "Penimbangan Digital Jujur", "Pembayaran Tepat Waktu"]
     },
     {
@@ -90,7 +90,7 @@ export const kopdesData = {
       id: "klinik-umkm",
       title: "Pendampingan & Klinik UMKM",
       icon: "Store",
-      description: "Edukasi kemasan produk, pengurusan izin PIRT/Halal, dan pembukuan keuangan bagi pelaku usaha mikro kalurahan.",
+      description: "Edukasi kemasan produk, pengurusan izin PIRT/Halal, dan pembukuan keuangan bagi pelaku usaha mikro kelurahan.",
       features: ["Pelatihan Rutin", "Fasilitasi Izin PIRT/Halal", "Konsultasi Usaha Gratis"]
     },
     {

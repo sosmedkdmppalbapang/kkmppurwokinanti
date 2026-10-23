@@ -5,7 +5,7 @@ import { supabase } from '../config/supabaseClient';
 
 const KopdesContext = createContext();
 
-const STORAGE_KEY = 'kopdes_app_data_v1';
+const STORAGE_KEY = 'kopkel_app_data_v2';
 
 export const KopdesProvider = ({ children }) => {
   const [data, setData] = useState(() => {

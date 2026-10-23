@@ -14,9 +14,9 @@ const ProfileSection = () => {
         
         <SectionTitle
           subtitle="Profil Lembaga"
-          title="Tentang Koperasi Kalurahan"
+          title="Tentang Koperasi Kelurahan"
           highlight="Merah Putih"
-          description="Lembaga ekonomi berbasis kekeluargaan yang didirikan untuk mengangkat harkat ekonomi warga kalurahan."
+          description="Lembaga ekonomi berbasis kekeluargaan yang didirikan untuk mengangkat harkat ekonomi warga kelurahan."
           badge="Profil Resmi"
         />
 
@@ -40,7 +40,7 @@ const ProfileSection = () => {
             </p>
 
             <p className="text-slate-600 text-sm leading-relaxed">
-              Kehadiran Kopkel Merah Putih menjadi wujud komitmen bersama antara pemerintah dan masyarakat kalurahan dalam menciptakan ekosistem usaha kalurahan yang sehat, mandiri, dan transparan.
+              Kehadiran Kopkel Merah Putih menjadi wujud komitmen bersama antara pemerintah dan masyarakat kelurahan dalam menciptakan ekosistem usaha kelurahan yang sehat, mandiri, dan transparan.
             </p>
 
             {/* Quick Status Cards */}

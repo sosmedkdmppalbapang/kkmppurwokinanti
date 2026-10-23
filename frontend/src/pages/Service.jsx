@@ -18,7 +18,7 @@ const Service = () => {
             Unit Layanan & Usaha Koperasi
           </h1>
           <p className="text-slate-300 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
-            Daftar unit layanan usaha resmi Kopkel Merah Putih untuk melayani dan memberdayakan masyarakat kalurahan.
+            Daftar unit layanan usaha resmi Kopkel Merah Putih untuk melayani dan memberdayakan masyarakat kelurahan.
           </p>
         </div>
       </section>
@@ -31,7 +31,7 @@ const Service = () => {
             subtitle="Fasilitas & Program Usaha"
             title="Daftar Unit Layanan Usaha"
             highlight="Tersedia"
-            description="Kopkel Merah Putih mengelola unit layanan terpilih sesuai kebutuhan sosial-ekonomi warga kalurahan setempat."
+            description="Kopkel Merah Putih mengelola unit layanan terpilih sesuai kebutuhan sosial-ekonomi warga kelurahan setempat."
             badge="Profil Unit Usaha"
           />
 

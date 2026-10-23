@@ -22,10 +22,10 @@ const Footer = () => {
               />
               <div className="flex flex-col">
                 <span className="font-bold text-base leading-none text-white uppercase">
-                  KOPKEL {kopdesData.namaKoperasi || 'Kalurahan Anda'}
+                  KOPKEL {kopdesData.namaKoperasi || 'Kelurahan Anda'}
                 </span>
                 <span className="text-[10px] font-semibold text-red-400 uppercase tracking-wider mt-1">
-                  Koperasi Kalurahan Merah Putih
+                  Koperasi Kelurahan Merah Putih
                 </span>
               </div>
             </Link>
@@ -135,10 +135,10 @@ const Footer = () => {
 
         {/* Bottom Copyright */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 font-medium gap-3">
-          <p>© {new Date().getFullYear()} KOPKEL {kopdesData.namaKoperasi || 'Kalurahan Anda'}. Hak Cipta Dilindungi Undang-Undang.</p>
+          <p>© {new Date().getFullYear()} KOPKEL {kopdesData.namaKoperasi || 'Kelurahan Anda'}. Hak Cipta Dilindungi Undang-Undang.</p>
           <div className="flex items-center gap-2">
             <Flag className="w-3.5 h-3.5 text-red-500" />
-            <span>Koperasi Kalurahan Merah Putih Indonesia</span>
+            <span>Koperasi Kelurahan Merah Putih Indonesia</span>
           </div>
         </div>
 

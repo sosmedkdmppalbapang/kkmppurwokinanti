@@ -132,7 +132,7 @@ const ContactPage = () => {
                 Kirim Pesan Ke Pengurus
               </h3>
               <p className="text-slate-500 text-xs sm:text-sm mb-6">
-                Sampaikan pertanyaan atau permohonan informasi mengenai program Koperasi Kalurahan Merah Putih.
+                Sampaikan pertanyaan atau permohonan informasi mengenai program Koperasi Kelurahan Merah Putih.
               </p>
 
               {isSubmitted && (

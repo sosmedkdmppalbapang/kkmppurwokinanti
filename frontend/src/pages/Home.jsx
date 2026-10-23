@@ -40,7 +40,7 @@ const Home = () => {
             subtitle="Unit Usaha Terpadu"
             title="Layanan Utama Koperasi"
             highlight="Desa"
-            description="Beberapa unit usaha prioritas Kopkel Merah Putih yang melayani kebutuhan warga kalurahan."
+            description="Beberapa unit usaha prioritas Kopkel Merah Putih yang melayani kebutuhan warga kelurahan."
             badge="Unit Layanan"
           />
 

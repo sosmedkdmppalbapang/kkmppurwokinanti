@@ -141,10 +141,10 @@ const Navbar = () => {
             />
             <div className="hidden sm:flex flex-col border-l border-slate-200 pl-3.5">
               <span className="font-bold text-base leading-none text-slate-900 tracking-tight">
-                KOPKEL <span className="uppercase">{kopdesData.namaKoperasi || 'Kalurahan Anda'}</span>
+                KOPKEL <span className="uppercase">{kopdesData.namaKoperasi || 'Kelurahan Anda'}</span>
               </span>
               <span className="text-[11px] font-semibold text-primary uppercase tracking-wider mt-1">
-                Portal Resmi Koperasi Kalurahan
+                Portal Resmi Koperasi Kelurahan
               </span>
             </div>
           </Link>
