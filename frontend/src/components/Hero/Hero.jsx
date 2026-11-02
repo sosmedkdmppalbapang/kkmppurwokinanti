@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ShieldCheck, ArrowRight, Building2, Flag } from 'lucide-react';
+import { ArrowRight, Building2, Flag } from 'lucide-react';
 import { useKopdes } from '../../context/KopdesContext';
 
 const Hero = () => {
@@ -49,12 +49,6 @@ const Hero = () => {
                 <Building2 className="w-4 h-4 text-primary" />
                 <span>Unit Layanan Usaha</span>
               </Link>
-            </div>
-
-            {/* Micro Legal Info */}
-            <div className="flex items-center gap-2 pt-5 border-t border-slate-200 w-full text-xs font-semibold text-slate-600">
-              <ShieldCheck className="w-4 h-4 text-primary flex-shrink-0" />
-              <span>Badan Hukum Resmi: {kopdesData.legal?.badanHukum}</span>
             </div>
 
           </motion.div>

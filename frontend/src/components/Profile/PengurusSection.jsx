@@ -41,8 +41,7 @@ const PengurusSection = () => {
           subtitle="Struktur Organisasi"
           title="Struktur Pengurus & Pengawas"
           highlight="Kopkel"
-          description="Para pengemban amanah yang bertanggung jawab mengelola operasional dan mengawasi jalannya usaha koperasi."
-          badge="Manajemen Resmi"
+          badge="Struktur"
         />
 
         <div className={getGridClasses(activeMembers.length)}>

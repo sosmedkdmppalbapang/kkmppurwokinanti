@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, ShieldCheck, ExternalLink, Building2 } from 'lucide-react';
+import { MapPin, ExternalLink, Building2 } from 'lucide-react';
 import { useKopdes } from '../../context/KopdesContext';
 import SectionTitle from '../SectionTitle/SectionTitle';
 
@@ -16,8 +16,7 @@ const ProfileSection = () => {
           subtitle="Profil Lembaga"
           title="Tentang Koperasi Kelurahan"
           highlight="Merah Putih"
-          description="Lembaga ekonomi berbasis kekeluargaan yang didirikan untuk mengangkat harkat ekonomi warga kelurahan."
-          badge="Profil Resmi"
+          badge="Profil"
         />
 
         {/* Section 1: Story & Brand Frame */}
@@ -31,10 +30,6 @@ const ProfileSection = () => {
             transition={{ duration: 0.4 }}
             className="lg:col-span-7 space-y-4"
           >
-            <h3 className="text-xl sm:text-2xl font-bold text-slate-900 leading-snug">
-              Mewujudkan Kesejahteraan Warga Melalui Tata Kelola Usaha Terpadu
-            </h3>
-            
             <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
               {kopdesData.description}
             </p>
@@ -44,20 +39,12 @@ const ProfileSection = () => {
             </p>
 
             {/* Quick Status Cards */}
-            <div className="pt-3 grid grid-cols-1 sm:grid-cols-2 gap-3.5">
-              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-3">
+            <div className="pt-3">
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-3 max-w-md">
                 <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="text-xs font-bold text-slate-900 uppercase">Wilayah Operasional</h4>
                   <p className="text-xs text-slate-600 mt-0.5">{kopdesData.legal.wilayahKerja}</p>
-                </div>
-              </div>
-
-              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-3">
-                <ShieldCheck className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <div>
-                  <h4 className="text-xs font-bold text-slate-900 uppercase">Status Keanggotaan</h4>
-                  <p className="text-xs text-slate-600 mt-0.5">{kopdesData.legal.statusKeanggotaan}</p>
                 </div>
               </div>
             </div>
@@ -80,11 +67,6 @@ const ProfileSection = () => {
               />
               <h4 className="text-base font-bold text-slate-900">{kopdesData.name}</h4>
               <p className="text-xs text-primary font-semibold uppercase tracking-wider mt-1">{kopdesData.tagline}</p>
-              
-              <div className="w-full mt-5 pt-4 border-t border-slate-200 text-xs text-slate-600 space-y-1">
-                <p><strong>Badan Hukum:</strong> {kopdesData.legal.badanHukum}</p>
-                <p><strong>Wilayah Kerja:</strong> {kopdesData.legal.wilayahKerja}</p>
-              </div>
             </div>
           </motion.div>
 

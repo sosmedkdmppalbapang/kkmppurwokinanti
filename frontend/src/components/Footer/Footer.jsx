@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MapPin, Phone, Mail, Facebook, Instagram, Youtube, Flag, ShieldCheck } from 'lucide-react';
+import { MapPin, Phone, Mail, Facebook, Instagram, Youtube, Flag } from 'lucide-react';
 import { useKopdes } from '../../context/KopdesContext';
 
 const Footer = () => {
@@ -33,11 +33,6 @@ const Footer = () => {
             <p className="text-slate-400 text-xs sm:text-sm leading-relaxed max-w-md">
               {kopdesData.description}
             </p>
-
-            <div className="pt-1 flex items-center gap-2 text-xs text-slate-400 font-medium">
-              <ShieldCheck className="w-4 h-4 text-red-500 flex-shrink-0" />
-              <span>Badan Hukum Resmi: {kopdesData.legal?.badanHukum}</span>
-            </div>
           </div>
 
           {/* Column 2: Navigation Links */}

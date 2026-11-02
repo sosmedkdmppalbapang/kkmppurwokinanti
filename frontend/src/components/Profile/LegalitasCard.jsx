@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FileText, MapPin, CheckCircle2 } from 'lucide-react';
+import { FileText, MapPin } from 'lucide-react';
 import { useKopdes } from '../../context/KopdesContext';
 import SectionTitle from '../SectionTitle/SectionTitle';
 
@@ -11,13 +11,11 @@ const LegalitasCard = () => {
     {
       title: "Nomor Badan Hukum",
       val: kopdesData.legal.badanHukum,
-      sub: "Kementerian Hukum & HAM RI",
       icon: FileText
     },
     {
       title: "Wilayah Operasional",
       val: kopdesData.legal.wilayahKerja,
-      sub: "Izin Usaha Kabupaten",
       icon: MapPin
     }
   ];
@@ -30,8 +28,7 @@ const LegalitasCard = () => {
           subtitle="Kepastian Hukum"
           title="Legalitas & Badan Hukum"
           highlight="Resmi"
-          description="Kopkel Merah Putih beroperasi secara sah dan memenuhi seluruh regulasi perundang-undangan Republik Indonesia."
-          badge="Resmi & Legal"
+          badge="Legalitas"
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -53,11 +50,6 @@ const LegalitasCard = () => {
                   
                   <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">{item.title}</span>
                   <h4 className="text-base font-bold text-slate-900 mt-1 leading-snug">{item.val}</h4>
-                </div>
-
-                <div className="pt-4 mt-5 border-t border-slate-200 flex items-center gap-2 text-xs text-primary font-semibold">
-                  <CheckCircle2 className="w-4 h-4" />
-                  <span>{item.sub}</span>
                 </div>
               </motion.div>
             );

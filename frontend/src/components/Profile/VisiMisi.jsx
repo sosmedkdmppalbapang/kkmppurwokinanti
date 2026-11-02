@@ -33,12 +33,9 @@ const VisiMisi = () => {
                 <Target className="w-6 h-6 stroke-[2]" />
               </div>
 
-              <span className="text-xs font-bold uppercase tracking-wider text-primary">Visi Utama</span>
-              <h3 className="text-lg font-bold text-slate-900 mt-1 mb-3">
-                Kemandirian Ekonomi Kelurahan 2030
-              </h3>
+              <span className="text-xs font-bold uppercase tracking-wider text-primary">Visi</span>
 
-              <p className="text-slate-600 text-sm leading-relaxed italic">
+              <p className="text-slate-600 text-sm leading-relaxed italic mt-3">
                 "{kopdesData.visi}"
               </p>
             </div>
@@ -59,12 +56,9 @@ const VisiMisi = () => {
                 <Compass className="w-6 h-6 stroke-[2]" />
               </div>
 
-              <span className="text-xs font-bold uppercase tracking-wider text-primary">Misi Kerja</span>
-              <h3 className="text-lg font-bold text-slate-900 mt-1 mb-5">
-                Langkah Nyata Pemberdayaan Anggota
-              </h3>
+              <span className="text-xs font-bold uppercase tracking-wider text-primary">Misi</span>
 
-              <div className="space-y-3.5">
+              <div className="space-y-3.5 mt-3">
                 {(typeof kopdesData.misi === 'string' ? kopdesData.misi.split('\n').filter(Boolean) : kopdesData.misi || []).map((misiText, idx) => (
                   <div key={idx} className="flex items-start gap-3">
                     <div className="w-5 h-5 rounded bg-red-50 text-primary border border-red-100 flex items-center justify-center flex-shrink-0 mt-0.5 font-bold text-xs">
